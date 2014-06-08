@@ -39,7 +39,7 @@ par(mfcol=c(2,2))
   # Use Legend function to specify legend on top right cornor of the plot
     legend("topright",pch="____",col=c("Black","Red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
 
-# Third Plot: Voltage VS datetime.
+# Third Plot: Voltage VS datetime
   plot(exdata.feb$datetime,exdata.feb$Voltage,type="l",ylab="Voltage",xlab="datetime")
 
 # Fourth Plot: Global Reactive power VS datetime.
