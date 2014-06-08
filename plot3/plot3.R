@@ -25,7 +25,7 @@ png(filename="plot3/plot3.png",width=480,height=480,bg = "transparent")
 
 plot(exdata.feb$datetime,exdata.feb$Sub_metering_1,type="n",xlab="",ylab="Energy sub metering")
 
-# Use points function to plot metering one by one
+# Use points function to plot metering one by one.
 points(exdata.feb$datetime,exdata.feb$Sub_metering_1,type="l")
 points(exdata.feb$datetime,exdata.feb$Sub_metering_2,type="l",col="Red")
 points(exdata.feb$datetime,exdata.feb$Sub_metering_3,type="l",col="Blue")
