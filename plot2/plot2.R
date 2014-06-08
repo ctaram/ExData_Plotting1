@@ -15,7 +15,7 @@ exdata.feb <- exdata[(exdata$Date=="1/2/2007"|exdata$Date=="2/2/2007"),]
 exdata.feb$Date <- strptime(exdata.feb$Date,"%d/%m/%Y")
 exdata.feb$Date <- as.Date(exdata.feb$Date)
 
-# Create a new datetime variable for each date and time observation
+# Create a new datetime variable for each date and time observation.
 exdata.feb$datetime <- as.POSIXct(paste(exdata.feb$Date, exdata.feb$Time), format="%Y-%m-%d %H:%M:%S")
 
 # Open a graphic device using png().plot2.png will be plotted in plot2 of working directory. 
