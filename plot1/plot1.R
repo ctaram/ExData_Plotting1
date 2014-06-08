@@ -1,7 +1,7 @@
 # R code for creating Histogram for Global Active Power [1 Feb 2007 & 2 Feb 2007]
 # Author: Sitaram Tadepalli
 
-# Prerequisites for the assignment
+# Prerequisites for the assignment.
 # Select a folder where you will be executing the assignment and set it as working directory
 # Download the  Electric power consumption dataset to working directory and name it as exdata.txt
 
